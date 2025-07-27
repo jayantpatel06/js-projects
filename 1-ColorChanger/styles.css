@@ -1,0 +1,30 @@
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: steelblue;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(125, 255, 149);
+    border:1.5px solid black;
+    border-radius: 10px;
+
+}
+a:hover{
+    color: brown;
+}
+.boxes{
+    display: flex;
+}
+.button{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
