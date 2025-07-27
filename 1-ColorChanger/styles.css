@@ -1,3 +1,6 @@
+body{
+    background: antiquewhite;
+}
 
 nav{
     display: flex;
@@ -8,7 +11,7 @@ nav{
 }
 a{
     text-decoration: none;
-    color: steelblue;
+    color: brown;
     padding: 10px;
     margin: 10px 10px 10px 10px;
     background-color: rgb(125, 255, 149);
@@ -17,14 +20,31 @@ a{
 
 }
 a:hover{
-    color: brown;
+    color: black;
+}
+.canvas{
+    text-align: center;
 }
 .boxes{
     display: flex;
+    justify-content: center;
 }
 .button{
     margin: 10px;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: 1.5px solid black;
+}
+#grey{
+    background-color: grey;
+}
+
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
 }
