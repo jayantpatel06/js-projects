@@ -1,0 +1,45 @@
+*{
+    color: #97db4f;
+    text-align: center;
+}
+
+.container{
+    background-color: #4A4238;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.container .instru{
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form label ,input{
+    margin: 8px;
+    padding: 5px;
+}
+
+#guess{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#guessfield{
+    font-size: 20px;
+    width: 200px;
+    background-color: grey;
+    border: 1px #97db4f solid;
+    color: black;
+}
+
+#subt{
+    color: black;
+    background-color: rgb(181, 127, 26);
+}

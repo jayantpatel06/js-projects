@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+      <p class="navleft"> <a href="../index.html">Jayant Patel</a></p>
+      <div class="navright">
+        <a href="https://www.instagram.com/_jayantpatel_" target="_blank"
+          >Instagram</a
+        >
+        <a href="https://www.leetcode.com/jayantpatel06" target="_blank"
+          >LeetCode</a
+        >
+        <a href="https://www.github.com/jayantpatel06" target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </nav>
+    <h2>Number Guessing Game</h2>
+    <div class="container">
+            <p class="instru">Try and guess a random number between 1 and 100.<br>You have 10 attempts to guess the right number.</p>
+            <br>        
+            <form class="form">
+                <label for="guessfield" id="guess" >Guess The Number</label>
+                <input type="text" id="guessfield" class="guessfield">
+                <input type="submit" id="subt" value="Submit Guess" class="guesssubmit">
+            </form>
+
+            <div id="data">
+                <p>Previous Guesses : <span class="guesses"></span></span></p>
+                <p>Guesses Remaining : <span class="lastresult">10</span></p>
+                <p class="loworhi"></p>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
