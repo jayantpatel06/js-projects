@@ -26,6 +26,10 @@
     padding: 5px;
 }
 
+.form input:hover{
+    cursor:pointer;
+}
+
 #guess{
     font-weight: bolder;
     font-size: 25px;
